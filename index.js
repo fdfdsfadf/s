@@ -199,6 +199,13 @@ routes.forEach(route => {
   });
 });
 
+app.get('/proxy', (req, res) => {
+  const target = req.query.url;
+  if (!target) return res.status(400).send("Missing URL");
+  res.redirect(`/ca/${target}`);
+});
+
+
 // 🧱 404 + Error
 app.use((req, res, next) => {
   res.status(404).sendFile(path.join(__dirname, "static", "404.html"));
