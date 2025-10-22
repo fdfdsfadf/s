@@ -17,7 +17,7 @@ const config = {
     soldo: "salmon_on_toast",
     themadyappers: "timmyfromsouthpark69",
     Potatofarmer23: "Potatofarmer23",
-    solar: "Solar233",
+    solar: "Solar23",
     Molly: "Ef9.pYu6A7"
   },
 };
