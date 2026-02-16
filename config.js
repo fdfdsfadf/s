@@ -18,7 +18,10 @@ const config = {
     themadyappers: "timmyfromsouthpark69",
     Potatofarmer23: "Potatofarmer23",
     solar: "Solar23",
-    Molly: "Ef9.pYu6A7"
+    Molly: "Ef9.pYu6A7",
+    SBC6741: "MrHeppellisthegoat",
+    comma19: "19548",
+    segie: "Sash1992",
   },
 };
 
